@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    public_html:
+        build: ./public_html
+        restart: always
+        ports:
+            - 80:80
+        volumes:
+            - ./public_html/:/var/www/html/
