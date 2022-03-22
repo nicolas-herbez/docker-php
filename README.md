@@ -5,7 +5,7 @@
 # Docker-PHP
 
 A simple docker container for PHP
-![php](https://img.shields.io/badge/php-7.4-green)
+<img src="https://img.shields.io/badge/PHP-7.4-green" />
 
 ## Getting Started
 
@@ -41,8 +41,15 @@ docker-compose up -d --build
 
 ### Test
 
-Test in your browser
-* [localhost](http://localhost/)
+Put your source code in the *public_html* folder and test it at this address
+<a href="http://localhost/" target="_blanc"><img src="https://img.shields.io/badge/localhost-80-blue" /></a>
+
+### Stop
+
+Execute from root
+```
+docker-compose down
+```
 
 ## Versioning
 
@@ -50,7 +57,7 @@ We use [Semantic Versioning](http://semver.org/) for versioning
 
 ## Authors
 
-* **Nicolas Herbez** - [Nico&Web](https://github.com/nicolas-herbez)
+[Nicolas Herbez](https://github.com/nicolas-herbez)
 
 ## License
 
